@@ -1,4 +1,4 @@
-<h1 align="center">formulaire frontend</h1>
+<h1 align="center">Formulaire frontend</h1>
 
 <p align="center">
   <img width="500" src="https://github.com/LilaGuill/formulaire-frontend/blob/master/img/scren.png" alt="capture-1">

@@ -1,27 +1,22 @@
 <h1 align="center">formulaire frontend</h1>
 
 <p align="center">
-  <img width="500" src="https://github.com/LilaGuill/react-todo-list/blob/master/public/screen1.png" alt="capture-1">
+  <img width="500" src="https://github.com/LilaGuill/formulaire-frontend/blob/master/img/scren.png" alt="capture-1">
 </p>
 
 <p align="center">
-  Demo:<a href="https://todolist-react-lg.netlify.com/" target="_blank"> https://todolist-react-lg.netlify.com/</a>
-</p>
-<p align="center">
- This project was bootstrapped with <a href=https://github.com/facebook/create-react-app. target="_blank">Create React App</a>
+  Demo:<a href="https://formulaire-lg.netlify.com/" target="_blank"> https://formulaire-lg.netlify.com/</a>
 </p>
 
 ## Overview
 
-**Single page application, architecture CRUD**
+- HTML5
+- CSS3
+- Javascript
 
 **Functionalities**
 
-- Create task : save task in mongoDB database.
-- Read : get task from MongoDB
-- Update task : update the status isChecked of the task to false or true
-- Remove task : delete task from database
-- Search task
+- Send email via MailGun
 
 **UI**
 
@@ -33,42 +28,34 @@
 Clone this repository :
 
 ```
-git clone https://github.com/LilaGuill/todo-list-frontend.git
-cd todo-list-frontend
-```
-
-Install packages :
-
-```
-npm install
+git clone https://github.com/LilaGuill/formulaire-frontend.git
+cd formulaire-frontend
 ```
 
 When installation is complete, run the project with:
 
 ```
-npm start
+VS Code extension Go Live
 ```
 
 ## Client
 
-- HTTP request with axios (Get, Post)
-- Hooks (useState, useEffect)
+- HTTP request with axios (post)
 
 ## Server
 
 - Express
 - Express-formidable
-- Mongoose
+- Mailgun-js
 
-## Todo List backend
+## Formulaire backend
 
-<a href="https://github.com/LilaGuill/todo-list-backend.git">https://github.com/LilaGuill/todo-list-backend.git</a>
+<a href="https://github.com/LilaGuill/formulaire-backend">https://github.com/LilaGuill/formulaire-backend</a>
 
 ## Deployment
 
 - Client deployed with Netlify
 - Server deployed with Heroku
-- MongoDb database hosted on Mlab
 
 ## Contact
 
